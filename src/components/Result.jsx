@@ -2,10 +2,16 @@ import React from "react";
 
 const Result = ({ score, totalQuestions, playAgain }) => {
   return (
-    <div>
+    <div className="result">
       <h2>Quiz Completed!</h2>
-      <p>Your Score: {score}/{totalQuestions}</p>
-      <button onClick={playAgain}>Play Again</button>
+      <p>
+        Your Score: {score}/{totalQuestions}
+      </p>
+      <p className="ptag">
+        <button onClick={playAgain} className="btn">
+          Play Again
+        </button>
+      </p>
     </div>
   );
 };

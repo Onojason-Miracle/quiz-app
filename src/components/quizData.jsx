@@ -5,6 +5,7 @@ const quizData = [
         "Computer Style Sheets",
         "Creative Style Sheets",
         "Colorful Style Sheets",
+        "Cascading Style Sheets"
       ],
       answer: "Cascading Style Sheets",
     },
@@ -16,17 +17,18 @@ const quizData = [
         "In the <body> section",
         "At the end of the document",
         "You can't refer to an external style sheet",
+        "In the <head> section"
       ],
       answer: "In the <head> section",
     },
     {
       question: "Which HTML tag is used to define an internal style sheet?",
-      options: ["<script>", "<headStyle>", "<css>"],
+      options: ["<script>", "<headStyle>", "<css>", "<style>"],
       answer: "<style>",
     },
     {
       question: "Which HTML attribute is used to define inline styles?",
-      options: ["class", "font", "styles"],
+      options: ["class", "font", "styles","style"],
       answer: "style",
     },
     {
@@ -35,6 +37,7 @@ const quizData = [
         "{body:color=black;}",
         "{body;color:black;}",
         "body:color=black;",
+        "body {color: black;}"
       ],
       answer: "body {color: black;}",
     },
@@ -44,12 +47,13 @@ const quizData = [
         "' this is a comment",
         "// this is a comment",
         "// this is a comment //",
+        "/* this is a comment */"
       ],
       answer: "/* this is a comment */",
     },
     {
       question: "Which property is used to change the background color?",
-      options: ["color", "bgcolor", "bgColor"],
+      options: ["color", "bgcolor", "bgColor","background-color"],
       answer: "background-color",
     },
     {
@@ -58,6 +62,7 @@ const quizData = [
         "all.h1 {background-color:#FFFFFF;}",
         "h1.setAll {background-color:#FFFFFF;}",
         "h1.all {background-color:#FFFFFF;}",
+        "h1 {background-color:#FFFFFF;}"
       ],
       answer: "h1 {background-color:#FFFFFF;}",
     },
